@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/coven_test/static/css/main.2411edf3.chunk.css",
+    "main.js": "/coven_test/static/js/main.3a41f094.chunk.js",
+    "main.js.map": "/coven_test/static/js/main.3a41f094.chunk.js.map",
+    "runtime-main.js": "/coven_test/static/js/runtime-main.8bd67dcf.js",
+    "runtime-main.js.map": "/coven_test/static/js/runtime-main.8bd67dcf.js.map",
+    "static/css/2.d0176e96.chunk.css": "/coven_test/static/css/2.d0176e96.chunk.css",
+    "static/js/2.e593260f.chunk.js": "/coven_test/static/js/2.e593260f.chunk.js",
+    "static/js/2.e593260f.chunk.js.map": "/coven_test/static/js/2.e593260f.chunk.js.map",
+    "index.html": "/coven_test/index.html",
+    "precache-manifest.2cd7dbd8175f8864052b9e05b43363e4.js": "/coven_test/precache-manifest.2cd7dbd8175f8864052b9e05b43363e4.js",
+    "service-worker.js": "/coven_test/service-worker.js",
+    "static/css/2.d0176e96.chunk.css.map": "/coven_test/static/css/2.d0176e96.chunk.css.map",
+    "static/css/main.2411edf3.chunk.css.map": "/coven_test/static/css/main.2411edf3.chunk.css.map",
+    "static/js/2.e593260f.chunk.js.LICENSE.txt": "/coven_test/static/js/2.e593260f.chunk.js.LICENSE.txt",
+    "static/media/pexels-photo-723240.jpeg": "/coven_test/static/media/pexels-photo-723240.48b6c037.jpeg",
+    "static/media/sidebar-1.jpg": "/coven_test/static/media/sidebar-1.8e9f0a3c.jpg",
+    "static/media/sidebar-2.jpg": "/coven_test/static/media/sidebar-2.310509c9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8bd67dcf.js",
+    "static/css/2.d0176e96.chunk.css",
+    "static/js/2.e593260f.chunk.js",
+    "static/css/main.2411edf3.chunk.css",
+    "static/js/main.3a41f094.chunk.js"
+  ]
+}
