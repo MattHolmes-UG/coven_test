@@ -12,7 +12,7 @@ import CardBody from "components/Card/CardBody.js";
 import CardFooter from "components/Card/CardFooter.js";
 import styles from "assets/jss/groups/views/dashboardStyle.js";
 import OpenSkyServices from "services/openSky";
-import { CircularProgress } from "@material-ui/core";
+import { LinearProgress } from "@material-ui/core";
 import FlightTakeoffIcon from "@material-ui/icons/FlightTakeoff";
 import FlightLandIcon from "@material-ui/icons/FlightLand";
 
@@ -60,7 +60,11 @@ export default function AirportModalCard({ airport, timeStr, begin, end }) {
                 </CardIcon>
                 <p className={classes.cardCategory}>Departures</p>
                 <h3 className={classes.cardTitle}>
-                  {departures >= 0 ? departures : <CircularProgress />}
+                  {departures >= 0 ? (
+                    departures
+                  ) : (
+                    <LinearProgress variant="indeterminate" />
+                  )}
                 </h3>
               </CardHeader>
               <CardFooter stats>
@@ -86,7 +90,7 @@ export default function AirportModalCard({ airport, timeStr, begin, end }) {
                 </CardIcon>
                 <p className={classes.cardCategory}>Arrivals</p>
                 <h3 className={classes.cardTitle}>
-                  {arrivals >= 0 ? arrivals : <CircularProgress />}
+                  {arrivals >= 0 ? arrivals : <LinearProgress />}
                 </h3>
               </CardHeader>
               <CardFooter stats>
